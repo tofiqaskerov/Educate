@@ -1,0 +1,36 @@
+.header{
+    background:linear-gradient(#e66465, #9198e5);
+    width: 100%;
+  
+    &__container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__logo{
+            width: 10%;
+            img{
+                width: 100%;
+
+            }
+        }
+        &__nav{
+        
+            &__list{
+                display: flex;
+                
+                li{
+                    list-style: none;
+                    padding: 30px 15px;
+                  
+                    a{
+                        color: #000;
+                        text-decoration:none ;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
